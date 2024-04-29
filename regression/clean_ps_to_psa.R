@@ -1,3 +1,10 @@
+# ==============================================
+# Functions for optimization
+#
+# Last Update: April 29, 2024
+# ==============================================
+
+
 library(dplyr)
 library(msm)
 library(survival)
@@ -26,7 +33,6 @@ logLR1.f <- function(par, indata1){
                           A1E <- locdata$A1E
                           
                           X1 <- locdata$AGE_PS-40
-                          # X1 <- locdata$AGE_early
                           X2 <- locdata$gender
                           X3 <- locdata$HLAB27
                           
@@ -66,7 +72,6 @@ logLR2.f <- function(par, indata2){
                           A2E <- locdata$A2E
                           
                           X1 <- locdata$AGE_PS-40
-                          # X1 <- locdata$AGE_early
                           X2 <- locdata$gender
                           X3 <- locdata$HLAB27
                           
@@ -101,7 +106,6 @@ logLR.f <- function(par, indata1, indata2){
                           A1E <- locdata$A1E
                           
                           X1 <- locdata$AGE_PS-40
-                          # X1 <- locdata$AGE_early
                           X2 <- locdata$gender
                           X3 <- locdata$HLAB27
                           
@@ -124,7 +128,6 @@ logLR.f <- function(par, indata1, indata2){
                           A2E <- locdata$A2E
                           
                           X1 <- locdata$AGE_PS-40
-                          #X1 <- locdata$AGE_early
                           X2 <- locdata$gender
                           X3 <- locdata$HLAB27
                           
@@ -160,7 +163,6 @@ logLRLP.f <- function(par, indata1, indata2){
                           A1E <- locdata$A1E
                           
                           X1 <- locdata$AGE_PS-40
-                          # X1 <- locdata$AGE_early
                           X2 <- locdata$gender
                           X3 <- locdata$HLAB27
                           
@@ -182,7 +184,6 @@ logLRLP.f <- function(par, indata1, indata2){
                           A2E <- locdata$A2E
                           
                           X1 <- locdata$AGE_PS-40
-                          # X1 <- locdata$AGE_early
                           X2 <- locdata$gender
                           X3 <- locdata$HLAB27
                           
@@ -204,7 +205,6 @@ logLRLP.f <- function(par, indata1, indata2){
                           delta2 <- locdata$status
                           
                           X1 <- locdata$AGE_PS-40
-                          # X1 <- locdata$AGE_early
                           X2 <- locdata$gender
                           X3 <- locdata$HLAB27
                           
@@ -238,7 +238,6 @@ logLP.f <- function(par, indata1){
                           delta2 <- locdata$status
                           
                           X1 <- locdata$AGE_PS-40
-                          # X1 <- locdata$AGE_early
                           X2 <- locdata$gender
                           X3 <- locdata$HLAB27
                           
@@ -275,7 +274,6 @@ logLR2.plot.f <- function(par, indata2, rho1){
                           A2E <- locdata$A2E
                           
                           X1 <- locdata$AGE_PS-40
-                          # X1 <- locdata$AGE_early
                           X2 <- locdata$gender
                           X3 <- locdata$HLAB27
                           

@@ -134,12 +134,3 @@ generatedata.manual.f <- function(npop, nsamples, lam, lamp, rho, A, tau50, tau9
   return(outdata)
 }
 
-
-#stats <- getstats.f(pi1=0.9, pi1o=0.25)
-#
-#
-#set.seed(1000)
-#simdata <- generatedata.manual.f(npop=60000, nsamples=5000, 
-#  lam=stats$lam, lamp=stats$lam, rho=stats$rho,
-#  A=stats$A,
-#  tau50=stats$tau50, tau95=stats$tau95)

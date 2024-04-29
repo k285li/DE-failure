@@ -1,3 +1,12 @@
+# ==============================================
+# Scripts for real-data application on likelihood 
+# minimization and regression parameters estimation
+#
+# Last Update: April 29, 2024
+# ==============================================
+
+
+
 library(HelpersMG)
 library(dplyr)
 source("clean_ps_to_psa.R")

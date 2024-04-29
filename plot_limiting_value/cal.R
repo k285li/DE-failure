@@ -1,3 +1,10 @@
+# ==============================================
+# Limiting value calculation and plot illustration
+#
+# Last Update: April 29, 2024
+# ==============================================
+
+
 library(msm)
 library(nleqslv)
 library(dplyr)
